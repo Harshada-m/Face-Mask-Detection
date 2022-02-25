@@ -3,10 +3,6 @@ tensorflow==2.7.0
 charset-normalizer==2.0.6
 click==8.0.3
 colorama==0.4.4
-distlib==0.3.2
-docopt==0.6.2
-decorator==4.4.2
-filelock==3.0.12
 Flask==2.0.2
 idna==3.2
 h5py==2.10.0
@@ -17,8 +13,6 @@ MarkupSafe==2.0.1
 matplotlib==3.2.1
 numpy==1.21.2
 Keras-Preprocessing==1.1.2
-pipenv==2021.11.23
-pipreqs==0.4.11
 platformdirs==2.2.0
 requests==2.26.0
 six==1.16.0
