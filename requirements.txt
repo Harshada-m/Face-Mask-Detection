@@ -1,5 +1,5 @@
 backports.entry-points-selectable==1.1.0
-tensorflow==2.2.0
+tensorflow==2.7.0
 charset-normalizer==2.0.6
 click==8.0.3
 colorama==0.4.4
@@ -30,7 +30,5 @@ scikit-learn==0.23.1
 scipy==1.4.1
 seaborn==0.10.1
 urllib3==1.26.7
-virtualenv==20.7.0
-virtualenv-clone==0.5.7
 Werkzeug==2.0.2
 yarg==0.1.9
