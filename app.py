@@ -10,14 +10,14 @@ from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
 import os
 
-model = tf.keras.models.load_model("C:/Users/dell/Azure Demo/Azure Project demo/Mask_detection_model.h5")
+model = tf.keras.models.load_model("C:/Users/dell/Azure Demo/Face Mask Detection/Mask_detection_model.h5")
 
 os.environ["FLASK_ENV"] = "development"    # Creating A Devlopment Environment
 
 app = Flask(__name__)       # Initilize App
 port = 5000   # Setting Port Number
 
-model = load_model('C:/Users/dell/Azure Demo/Azure Project demo/Mask_detection_model.h5')
+model = load_model('C:/Users/dell/Azure Demo/Face Mask Detection/Mask_detection_model.h5')
 
 @app.route('/')
 def index():
