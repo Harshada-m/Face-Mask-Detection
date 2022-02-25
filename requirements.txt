@@ -25,6 +25,6 @@ six==1.16.0
 tqdm==4.62.3
 packaging==20.4
 pip>=19.3
-html5lib==1.1
+html5lib
 zlib
 pandas==1.4.1
