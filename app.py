@@ -7,15 +7,14 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.models import load_model
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import os
 
 model = tf.keras.models.load_model("C:/Users/dell/Azure Demo/Face Mask Detection/Mask_detection_model.h5")
 
 os.environ["FLASK_ENV"] = "development"    # Creating A Devlopment Environment
 
-app = Flask(__name__)       # Initilize App
-port = 5000   # Setting Port Number
+app = Flask(__name__)       # Initilize App   
 
 model = load_model('C:/Users/dell/Azure Demo/Face Mask Detection/Mask_detection_model.h5')
 
