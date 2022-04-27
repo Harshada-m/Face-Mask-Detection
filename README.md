@@ -19,3 +19,5 @@
     
 -   Created our final model using  **MobileNetV2**  and made predictions on the test set using it.
 
+-   Deployed the model to website using **Azure**.
+
